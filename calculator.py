@@ -29,6 +29,9 @@ while True:
             result = cube(float(num1))
         elif equation == 'power':
             result = power(float(num1), float(tokens[2]))
+        elif equation == 'mod':
+            result = mod(float(num1), float(tokens[2]))
+        print(result)
         
 
 

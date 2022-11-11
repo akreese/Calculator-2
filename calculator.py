@@ -21,7 +21,16 @@ while True:
             result = subtract(float(num1), float(tokens[2]))
         elif equation == '*':
             result = multiply(float(num1), float(tokens[2]))
+        elif equation == '/':
+            result = divide(float(num1), float(tokens[2]))
+        elif equation == 'square':
+            result = square(float(num1))
+        elif equation == 'cube':
+            result = cube(float(num1))
+        elif equation == 'power':
+            result = power(float(num1), float(tokens[2]))
         
+
 
 
 

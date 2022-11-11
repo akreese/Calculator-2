@@ -27,7 +27,7 @@ while True:
             result = square(float(num1))
         elif equation == 'cube':
             result = cube(float(num1))
-        elif equation == 'power':
+        elif equation == 'pow':
             result = power(float(num1), float(tokens[2]))
         elif equation == 'mod':
             result = mod(float(num1), float(tokens[2]))
@@ -37,5 +37,5 @@ while True:
 
 
 
-
+ 
 

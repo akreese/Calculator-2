@@ -11,7 +11,19 @@ while True:
     if tokens[0] == 'q':
         print("You are now exiting")
         break
-    equation = tokens[0]
-    num1 = tokens[1]
+    else:
+        equation = tokens[0]
+        num1 = tokens[1]
+        result = None
+        if equation == '+':
+            result = add(float(num1), float(tokens[2]))
+        elif equation == '-':
+            result = subtract(float(num1), float(tokens[2]))
+        elif equation == '*':
+            result = multiply(float(num1), float(tokens[2]))
+        
+
+
+
 
 
